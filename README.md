@@ -28,7 +28,14 @@ Assembly listings require an execution basic 'RUN' header:
 ;   Resulting outtputed assembled .BIN file can be simply copied into an emulator, or, 
 
 ;   Use a Laser500:   BIN2WAV to create a WAV file , that can then be CLOAD'd in.
-;
+
 ;   Antontino's Laser500 emulator :     https://nippur72.github.io/laser500emu/
-;
+
+
+To play the tunes, simply go to the above URL, and drag'n'drop the .BIN files into the emulator.
+Speed may vary - testing was initially performed on Firefox v115 and the emulator was absolutely *DEAD SET SLOOOOW* !!  and totally un-useable.
+I ditched it for a current version of MYPAL68 (Aug 24) and the speed of the emulator was instantly back to what I'd call normal operating speed.
+Firefox is just now bloated crud, only designed for the fancy new fast tech.
+
+
 
