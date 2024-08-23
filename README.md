@@ -4,18 +4,15 @@ https://nippur72.github.io/laser500emu/
 
 The Laser 500 has its speaker sitting on bit 1 of memory latch $6800, and requires an initial write to port $41 for bank activation.
 
-di
-
-ld      a,2
-
-out     ($41),a
+	di
+	ld      a,2
+	out     ($41),a
 
 
-Then oscillate bit 1 in register A of the latch to output on/off timed signal to the speaker
+Then oscillate bit 1 in register A of the latch to output on/off timed signal to the speaker as a repalcement to the standard ZX code:  'OUT ($FE), A'
 
 	XOR   	1
- 
-	ld	($6800),a
+ 	ld	($6800),a
 
 -----------------------------------------------------
 
